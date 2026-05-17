@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.streamlit/secrets.toml
+
+# Models (large binary files)
+models/
+
+# Data (user-uploaded PDFs)
+data/**/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
